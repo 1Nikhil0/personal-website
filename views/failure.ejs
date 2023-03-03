@@ -1,0 +1,47 @@
+<%- include("partials/header") -%>
+
+    <body class="s-home">
+
+        <section class="c-hero">
+            <div class="c-hero__box">
+                <div class="o-flexy__block js-bounce-in-home">
+                    <h1 class="c-hero__title"> Uh oh! </h1>
+                    <h3 class="c-hero__sub"> There was a problem signing you up. Please try again or conatct the
+                        developer!</h3>
+                    <form action="/failure" method="post">
+                        <div class="row">
+                            <div class="row">
+                                <input style="float: left;margin-top:24px;padding: 12px 30px;" class="resumeButtonNew"
+                                    type="submit" value="Try Again">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+
+        <p class="c-footer__text" style="position: absolute;bottom: 0px;text-align: center;width: 100%;">
+            &copy; Copyright 2022 <a href="https://github.com/1Nikhil0"><span>Nikhil</span></a><span>.</span>
+        </p>
+
+
+        <script
+            type="text/javascript">!function (e, t, n) { function a() { var e = t.getElementsByTagName("script")[0], n = t.createElement("script"); n.type = "text/javascript", n.async = !0, n.src = "https://beacon-v2.helpscout.net", e.parentNode.insertBefore(n, e) } if (e.Beacon = n = function (t, n, a) { e.Beacon.readyQueue.push({ method: t, options: n, data: a }) }, n.readyQueue = [], "complete" === t.readyState) return a(); e.attachEvent ? e.attachEvent("onload", a) : e.addEventListener("load", a, !1) }(window, document, window.Beacon || function () { });</script>
+        <script type="text/javascript">window.Beacon('init', '792436eb-bdd6-49a7-bea3-d1d27458d3f3')</script>
+
+
+        <!-- Custom Links -->
+
+        <script src="js\jquery.min.js"></script>
+        <script src="js\anime.min.js"></script>
+        <script src="js\lazyload.min.js"></script>
+
+
+        <script src="js\index.js"></script>
+
+
+    </body>
+
+    </html>

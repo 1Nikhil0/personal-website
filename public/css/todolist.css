@@ -1,0 +1,116 @@
+    .todo-container h1 {
+      color: #fff;
+      padding: 10px;
+    }
+
+    .todo-container .box {
+      width: 80%;
+      margin: 50px auto;
+      background: white;
+      border-radius: 5px;
+      box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    }
+
+    .todo-container #heading {
+      background-color: #A683E3;
+      text-align: center;
+    }
+
+    .todo-container .item {
+      min-height: 70px;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #F1F1F1;
+    }
+
+    .todo-container .item:last-child {
+      border-bottom: 0;
+    }
+
+    .todo-container input:checked+p {
+      text-decoration: line-through;
+      text-decoration-color: #A683E3;
+    }
+
+    .todo-container input[type="checkbox"] {
+      margin: 1rem;
+      height: 1rem;
+      width: 1rem;
+    }
+
+    .todo-container p {
+      margin: 0;
+      padding: 1rem 1rem 1rem 0px;
+      font-size: 1rem;
+      font-weight: 400;
+      color: #00204a;
+    }
+
+    .todo-container form.item {
+      text-align: center;
+      /* margin-left: 20px; */
+    }
+
+    .todo-container button {
+      min-height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      border-color: transparent;
+      background-color: #A683E3;
+      color: #fff;
+      font-size: 30px;
+      /* padding-bottom: 6px; */
+      border-width: 0;
+    }
+
+    .todo-container input[type="text"] {
+      text-align: center;
+      height: 60px;
+      top: 10px;
+      border: none;
+      background: transparent;
+      font-size: 20px;
+      font-weight: 200;
+      width: 94%;
+    }
+
+    .todo-container input[type="text"]:focus {
+      outline: none;
+      box-shadow: inset 0 -3px 0 0 #A683E3;
+    }
+
+    .todo-container ::placeholder {
+      color: grey;
+      opacity: 1;
+    }
+
+    .todo-container footer {
+      color: white;
+      color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+
+    .todo-container .c-hero__title{
+      font-size: 3.5em;
+    }
+
+    .todo-container .c-hero{
+      padding-top:2rem;
+    }
+
+
+    @media (min-width:380px) and (max-device-width: 900px)  {
+      .todo-container input[type="text"] {
+      width:90%;
+      }
+    }
+
+    @media screen and (max-width: 380px) {
+      .todo-container .c-hero__title{
+        font-size: 1.8em;
+      }
+      .todo-container input[type="text"]{
+        width:80%;
+      }
+
+    }

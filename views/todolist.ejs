@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nikhil | Developer | Work</title>
+    <meta name="description" content="The portfolio of Nikhil Dasari, Developer.">
+
+    <link rel="preload" href="fonts\biotif.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts\bogart.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+
+    <!-- Add Favicon -->
+    <link rel="icon" type="image/x-icon" href="icons\favicon.png">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- Custom Links -->
+
+    <!-- Bootstrap 5.2 Links -->
+
+    <link rel="stylesheet" href="css\bootstrap.css">
+
+    <link rel="stylesheet" href="css\font-awesome.min.css">
+
+    <link rel="stylesheet" href="css\styles.css">
+
+    <link href="css\diaplaySwap.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css\todolist.css">
+
+
+</head>
+
+<body class="s-home">
+
+    <div class="todo-container">
+
+        <section class="c-hero">
+            <div class="c-hero__box">
+                <div class="o-flexy__block">
+                    <h1 class="c-hero__title todolist-title" style="text-align: center;"><%= listTitle %></h1>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- <div class="box" id="heading">
+
+            <h1><%= listTitle %></h1>
+
+        </div> -->
+
+        <div class="box">
+
+            <% newListItems.forEach(function(item){ %>
+
+            <form action="/delete" method="post">
+
+                <div class="item">
+                    <input type="checkbox" name="checkbox" value="<%= item._id %>" onchange="this.form.submit()">
+                    <p><%= item.name %></p>
+                </div>
+                <input type="hidden" name="listName" value="<%= listTitle %>" />
+            </form>
+
+            <% }) %>
+
+            <form class="item todo-item" action="/todolist" method="post">
+
+                <input type="text" name="newItem" placeholder="New Item" autocomplete="off">
+
+                <button type="submit" name="list" value="<%= listTitle %>">+</button>
+
+            </form>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+<p class="c-footer__text">
+    &copy; Copyright 2022 <a href="https://github.com/1Nikhil0"><span>Nikhil</span></a><span>.</span>
+</p>
+
+
+
+<script type="text/javascript">
+    ! function (e, t, n) {
+        function a() {
+            var e = t.getElementsByTagName("script")[0],
+                n = t.createElement("script");
+            n.type = "text/javascript", n.async = !0, n.src = "https://beacon-v2.helpscout.net", e.parentNode
+                .insertBefore(n, e)
+        }
+        if (e.Beacon = n = function (t, n, a) {
+                e.Beacon.readyQueue.push({
+                    method: t,
+                    options: n,
+                    data: a
+                })
+            }, n.readyQueue = [], "complete" === t.readyState) return a();
+        e.attachEvent ? e.attachEvent("onload", a) : e.addEventListener("load", a, !1)
+    }(window, document, window.Beacon || function () {});
+</script>
+
+<script type="text/javascript">
+    window.Beacon('init', '792436eb-bdd6-49a7-bea3-d1d27458d3f3')
+</script>
+
+
+<!-- Custom Links -->
+
+<script src="js\bootstrap.js"></script>
+<script src="js\jquery.min.js"></script>
+<script src="js\anime.min.js"></script>
+<script src="js\lazyload.min.js"></script>
+<script src="js\index.js"></script>
+
+
+</body>
+
+</html>
