@@ -6517,7 +6517,7 @@ a:hover .c-logo__iris {
 }
 
 .c-nav-list__link {
-    padding: 1.5em .75em;
+    padding: 1.5em 2em;
     display: block;
     color: #232320;
     font-size: 1.1em;
@@ -7058,7 +7058,7 @@ a:hover .c-logo__iris {
 
 .c-duties__title {
     color: #232320;
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 1.5px;
     text-transform: uppercase
 }
@@ -10608,6 +10608,25 @@ label {
 }
 
 @media screen and (max-width: 480px) {
+    
+    .resumeButtonNew{
+        padding: 10px 20px;
+    }
+    .c-gant__company{
+        font-size: 16px;
+    }
+    .c-gant__entry{
+        padding: 1rem;
+    }
+
+    li.c-duties__list-item {
+        font-size: 16px;
+        margin-right: 16px;
+    }
+
+    .c-duties__title {
+        font-size: 10px;
+    }
 
     .offcanvas-header .c-nav-list__link--work span::after {
         z-index: 5;
