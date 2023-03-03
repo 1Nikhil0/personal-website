@@ -8,11 +8,11 @@
     <title>Nikhil | Developer | Work</title>
     <meta name="description" content="The portfolio of Nikhil Dasari, Developer.">
 
-    <link rel="preload" href="/public/fonts/biotif.woff2" type="font/woff2" as="font" crossorigin="anonymous">
-    <link rel="preload" href="/public/fonts/bogart.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="public/fonts/biotif.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="public/fonts/bogart.woff2" type="font/woff2" as="font" crossorigin="anonymous">
 
     <!-- Add Favicon -->
-    <link rel="icon" type="image/x-icon" href="/public/icons/favicon.png">
+    <link rel="icon" type="image/x-icon" href="public/icons/favicon.png">
 
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -25,15 +25,15 @@
 
     <!-- Bootstrap 5.2 Links -->
 
-    <link rel="stylesheet" href="/public/css/bootstrap.css">
+    <link rel="stylesheet" href="public/css/bootstrap.css">
 
-    <link rel="stylesheet" href="/public/css/font-awesome.min.css">
+    <link rel="stylesheet" href="public/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="/public/css/styles.css">
+    <link rel="stylesheet" href="public/css/styles.css">
 
-    <link href="/public/css/diaplaySwap.css" rel="stylesheet">
+    <link href="public/css/diaplaySwap.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="/public/css/todolist.css">
+    <link rel="stylesheet" href="public/css/todolist.css">
 
 
 </head>
@@ -78,7 +78,7 @@
         <!-- Logo -->
 
         <a class="c-nav-list__link external logo-pad" href="/" rel="noopener" aria-label="Logo">
-            <img style="height: 2rem;" src="/public/images/Nikhil-logos_transparent.png" alt="">
+            <img style="height: 2rem;" src="public/images/Nikhil-logos_transparent.png" alt="">
         </a>
 
         <!-- 3 dots button -->
@@ -272,7 +272,7 @@
                 <div class="c-hero__eye-wrap">
                     <div class="c-tile__holder">
                         <img style="height: auto;" class="c-tile__img c-tile__img--hs lazy newTitlePic"
-                            data-src="/public/images/newTitlePic.jpg" alt="Personal Picture"
+                            data-src="public/images/newTitlePic.jpg" alt="Personal Picture"
                             aria-label="Profile Picture">
                     </div>
                 </div>
@@ -502,7 +502,7 @@
 
                     <!-- <a class="ResuemButtom" href="resume\Nikhil_Resume.pdf" download="Resume"><input type="submit" value="Resume"></a> -->
 
-                    <form method="get" target="_blank" action="/public/resume/Nikhil_Resume.pdf">
+                    <form method="get" target="_blank" action="public/resume/Nikhil_Resume.pdf">
                         <div class="n-row">
                             <div class="n-row">
                                 <input class="resumeButtonNew" type="submit" value="Resume">
@@ -552,7 +552,7 @@
 
     <!-- Footer -->
 
-    <footer class="c-footer">
+    <footer class="c-footer js-bounce-in-home">
 
         <div class="c-footer__content">
 
@@ -568,7 +568,7 @@
 
     </footer>
 
-    <p class="c-footer__text">
+    <p class="c-footer__text js-bounce-in-home">
         &copy; Copyright 2022 <a href="https://github.com/1Nikhil0"><span>Nikhil</span></a><span>.</span>
     </p>
 
@@ -826,13 +826,15 @@
 
     </div>
 
-    <button class="c-fab js-nikhil" aria-label="Toggle Chat">
-        <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M27.1245 15H24.875C18.869 15 14 19.6557 14 25.3986C14 31.1419 18.869 36.0251 24.875 36.0251H27.1245C28.5007 36.0251 29.8164 35.5501 31.0277 35.1042L34.7099 36.9196C35.5358 37.229 36.4153 36.6034 36.3434 35.7578L36.1004 31.4793C37.7493 29.6565 38 27.9982 38 25.3986C38 19.6557 33.131 15 27.1245 15ZM34.1036 31.5927C34.0733 31.0585 34.2583 30.5344 34.6172 30.1376C35.7262 28.9116 36 27.9263 36 25.3986C36 20.7808 32.0459 17 27.1245 17H24.875C19.954 17 16 20.7808 16 25.3986C16 30.0739 20.0109 34.0251 24.875 34.0251H27.1245C27.9586 34.0251 28.7311 33.8185 30.3367 33.2274C30.851 33.038 31.4205 33.068 31.9121 33.3104L34.2672 34.4715L34.1036 31.5927ZM34.3467 35.8712L34.3439 35.8218C34.3443 35.8381 34.3452 35.8546 34.3467 35.8712Z"
-                fill="white" />
-        </svg>
-    </button>
+    <div class="js-bounce-in-home">
+        <button class="c-fab js-nikhil" aria-label="Toggle Chat">
+            <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M27.1245 15H24.875C18.869 15 14 19.6557 14 25.3986C14 31.1419 18.869 36.0251 24.875 36.0251H27.1245C28.5007 36.0251 29.8164 35.5501 31.0277 35.1042L34.7099 36.9196C35.5358 37.229 36.4153 36.6034 36.3434 35.7578L36.1004 31.4793C37.7493 29.6565 38 27.9982 38 25.3986C38 19.6557 33.131 15 27.1245 15ZM34.1036 31.5927C34.0733 31.0585 34.2583 30.5344 34.6172 30.1376C35.7262 28.9116 36 27.9263 36 25.3986C36 20.7808 32.0459 17 27.1245 17H24.875C19.954 17 16 20.7808 16 25.3986C16 30.0739 20.0109 34.0251 24.875 34.0251H27.1245C27.9586 34.0251 28.7311 33.8185 30.3367 33.2274C30.851 33.038 31.4205 33.068 31.9121 33.3104L34.2672 34.4715L34.1036 31.5927ZM34.3467 35.8712L34.3439 35.8218C34.3443 35.8381 34.3452 35.8546 34.3467 35.8712Z"
+                    fill="white" />
+            </svg>
+        </button>
+    </div>
 
 
 
@@ -871,11 +873,11 @@
 
 
     <!-- Custom Links -->
-    <script src="/public/js/bootstrap.js"></script>
-    <script src="/public/js/jquery.min.js"></script>
-    <script src="/public/js/anime.min.js"></script>
-    <script src="/public/js/lazyload.min.js"></script>
-    <script src="/public/js/index.js"></script>
+    <script src="public/js/bootstrap.js"></script>
+    <script src="public/js/jquery.min.js"></script>
+    <script src="public/js/anime.min.js"></script>
+    <script src="public/js/lazyload.min.js"></script>
+    <script src="public/js/index.js"></script>
 
 </body>
 
