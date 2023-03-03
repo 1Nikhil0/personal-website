@@ -6517,7 +6517,7 @@ a:hover .c-logo__iris {
 }
 
 .c-nav-list__link {
-    padding: 1.5em .75em;
+    padding: 1.5em 2em;
     display: block;
     color: #232320;
     font-size: 1.1em;
@@ -7058,7 +7058,7 @@ a:hover .c-logo__iris {
 
 .c-duties__title {
     color: #232320;
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 1.5px;
     text-transform: uppercase
 }
@@ -10251,24 +10251,33 @@ a:hover .c-logo__iris {
 
     /*Custom Styles*/
 
-    .offcanvas, .offcanvas-xxl, .offcanvas-xl, .offcanvas-lg, .offcanvas-md, .offcanvas-sm{
-        --bs-offcanvas-bg:#111;
-    }
-    .nik-dark{
-    --bs-btn-border-color:#111;
+    .offcanvas,
+    .offcanvas-xxl,
+    .offcanvas-xl,
+    .offcanvas-lg,
+    .offcanvas-md,
+    .offcanvas-sm {
+        --bs-offcanvas-bg: #111;
     }
 
-    .about-img{
-        border-radius:20px;
+    .nik-dark {
+        --bs-btn-border-color: #111;
     }
-    .n-carouselIndicators{
+
+    .about-img {
+        border-radius: 20px;
+    }
+
+    .n-carouselIndicators {
         bottom: -3rem;
     }
+
     .n-carouselcontrolprev {
         left: -6.3rem;
     }
-    .n-carouselcontrolnext{
-        right:-6.3rem;
+
+    .n-carouselcontrolnext {
+        right: -6.3rem;
     }
 
     .hobbies-box {
@@ -10599,6 +10608,41 @@ label {
 }
 
 @media screen and (max-width: 480px) {
+    
+    .resumeButtonNew{
+        padding: 10px 20px;
+    }
+    .c-gant__company{
+        font-size: 16px;
+    }
+    .c-gant__entry{
+        padding: 1rem;
+    }
+
+    li.c-duties__list-item {
+        font-size: 16px;
+        margin-right: 16px;
+    }
+
+    .c-duties__title {
+        font-size: 10px;
+    }
+
+    .offcanvas-header .c-nav-list__link--work span::after {
+        z-index: 5;
+        content: "";
+        width: 100%;
+        position: absolute;
+        bottom: -10px;
+        height: 3px;
+        left: 0;
+        display: block;
+        background: #ffc4ff;
+        transition: all .2s cubic-bezier(.175, .885, .32, 1.275);
+        opacity: 1;
+        transform: translateZ(0) scale3d(1.1, 1.1, 1.1) rotate(-2deg);
+    }
+
     .hide-nav-mobile {
         display: none;
     }
@@ -10628,25 +10672,29 @@ label {
         text-align: right;
         padding: 0.7rem;
     }
-    .n-P{
+
+    .n-P {
         font-size: 12px;
     }
+
     .n-carouselIndicators {
         bottom: -2.7rem;
     }
-    .n-carouselcontrolnext{
+
+    .n-carouselcontrolnext {
         right: 0;
     }
-    .n-carouselcontrolprev{
+
+    .n-carouselcontrolprev {
         left: 0;
     }
-    .logo-pad{
-    padding: 1em .75em;
+
+    .logo-pad {
+        padding: .75em .75em;
     }
-    .dots-links{
-    padding: 12px 6px;
+
+    .dots-links {
+        padding: 12px 6px;
     }
 
 }
-
-

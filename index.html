@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nikhil | Developer | Work</title>
+    <meta name="description" content="The portfolio of Nikhil Dasari, Developer.">
+
+    <link rel="preload" href="/public/fonts/biotif.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="/public/fonts/bogart.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+
+    <!-- Add Favicon -->
+    <link rel="icon" type="image/x-icon" href="/public/icons/favicon.png">
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- Custom Links -->
+
+    <!-- Bootstrap 5.2 Links -->
+
+    <link rel="stylesheet" href="/public/css/bootstrap.css">
+
+    <link rel="stylesheet" href="/public/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="/public/css/styles.css">
+
+    <link href="/public/css/diaplaySwap.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/public/css/todolist.css">
+
+
+</head>
+
+<!-- Mobile Nav-Bar -->
+
+<nav class="navbar navbar-dark bg-dark fixed-top hide-nav-desktop dark-variant js-bounce-in-home">
+    <div class="container-fluid">
+
+        <!-- Left burger button -->
+
+        <button class="btn btn-dark nik-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+            aria-controls="staticBackdrop" style="background-color: #111;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" class="bi" fill="currentColor"
+                viewBox="0 0 16 16" style="background-color: #111;">
+                <path fill-rule="evenodd"
+                    d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+                </path>
+            </svg>
+        </button>
+
+
+
+        <!-- <a class="c-nav-list__link external" href="https://www.linkedin.com/in/nikhil-dasari-35645320a/" target="_blank"
+            rel="noopener" aria-label="linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-linkedin"
+                viewBox="0 0 16 16">
+                <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+            </svg>
+        </a> -->
+
+        <!-- <a class="c-nav-list__link external" href="https://www.instagram.com/d.n.i.k.h.i.l/" target="_blank"
+            rel="noopener" aria-label="instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-instagram"
+                viewBox="0 0 16 16">
+                <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+            </svg>
+        </a> -->
+
+        <!-- Logo -->
+
+        <a class="c-nav-list__link external logo-pad" href="/" rel="noopener" aria-label="Logo">
+            <img style="height: 2rem;" src="/public/images/Nikhil-logos_transparent.png" alt="">
+        </a>
+
+        <!-- 3 dots button -->
+
+        <button class="btn btn-dark d-lg-none nik-dark" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#staticBackdropDots" aria-controls="offcanvasResponsive" style="background-color: #111;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots"
+                viewBox="0 0 16 16" style="background-color: #111;">
+                <path
+                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+            </svg>
+        </button>
+
+
+
+    </div>
+</nav>
+
+<!-- Left burger button div-->
+
+<div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+    aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas-header">
+        <div class="c-nav-list__item o-flexy__item c-nav-list__item--work dropdown-links"><a
+                class="c-nav-list__link--dropdown c-nav-list__link c-nav-list__link--work "><span>Browse About
+                    Me</span></a>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+
+        <div class="c-nav-list__item o-flexy__item c-nav-list__item--work dropdown-links">
+            <a class="c-nav-list__link c-nav-list__link--dropdown c-nav-list__link--work "
+                href="/index.html"><span>Work</span></a>
+        </div>
+        <!-- <div class="c-nav-list__item o-flexy__item c-nav-list__item--work dropdown-links">
+            <a class="c-nav-list__link c-nav-list__link--dropdown c-nav-list__link--work "
+                href="/about.html"><span>About</span></a>
+        </div> -->
+        <!-- <div class="c-nav-list__item o-flexy__item c-nav-list__item--work dropdown-links">
+            <a class="c-nav-list__link c-nav-list__link--dropdown c-nav-list__link--work "
+                href="/contact"><span>Contact</span></a>
+        </div> -->
+        <div class="c-nav-list__item o-flexy__item c-nav-list__item--work dropdown-links">
+            <a class="c-nav-list__link c-nav-list__link--dropdown c-nav-list__link--work js-nikhil">
+                <span>Chat</span></a>
+        </div>
+
+        <br>
+
+        <!-- <div class="c-nav-list__item o-flexy__item c-nav-list__item--work dropdown-links underline"><a
+                class="c-nav-list__link--dropdown c-nav-list__link c-nav-list__link--work "><span>Projects</span></a>
+        </div>
+        <div class="c-nav-list__item o-flexy__item c-nav-list__item--work dropdown-links">
+            <a class="c-nav-list__link c-nav-list__link--dropdown c-nav-list__link--work" href="/todolist"><span>To do
+                    list</span></a>
+        </div> -->
+    </div>
+
+
+</div>
+
+<!-- 3 dots button left div -->
+
+<div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdropDots"
+    aria-labelledby="staticBackdropLabel">
+    <div class="offcanvas-header">
+        <div class="c-nav-list__item o-flexy__item c-nav-list__item--work dropdown-links"><a
+                class="c-nav-list__link--dropdown c-nav-list__link c-nav-list__link--work "><span>To Reach Me
+                    Out</span></a>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+
+        <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav">
+
+            <li class="nav-item col-6 col-lg-auto">
+                <a class="c-nav-list__link c-nav-list__link--dropdown c-nav-list__link--work dots-links"
+                    href="https://www.linkedin.com/in/nikhil-dasari-35645320a/" target="_blank">
+                    <span> LinkedIn</span></a>
+            </li>
+            <li class="nav-item col-6 col-lg-auto">
+                <a class="c-nav-list__link c-nav-list__link--dropdown c-nav-list__link--work dots-links"
+                    href="https://www.instagram.com/d.n.i.k.h.i.l/" target="_blank">
+                    <span>Instagram</span></a>
+            </li>
+            <li class="nav-item col-6 col-lg-auto">
+                <a class="c-nav-list__link c-nav-list__link--dropdown c-nav-list__link--work dots-links"
+                    href="https://www.facebook.com/danielnikhil10" target="_blank"><span>Facebook</span></a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+<body class="s-home">
+
+    <!-- Desktop Nav-Bar -->
+
+    <header class="s-nav hide-nav-mobile js-bounce-in-home">
+        <nav class="c-nav ">
+
+            <ul class="c-nav-list c-nav-list--info o-flexy o-flexy--top">
+
+                <li class="c-nav-list__item o-flexy__item c-nav-list__item--work js-work"><a
+                        class="c-nav-list__link c-nav-list__link--work " href="/index.html"><span>Work</span></a>
+                </li>
+
+                <!-- <li class="c-nav-list__item o-flexy__item c-nav-list__item--info"><a
+                        class="c-nav-list__link c-nav-list__link--info " href="/about.html"><span>About</span></a>
+                </li> -->
+
+                <!-- <li class="c-nav-list__item o-flexy__item c-nav-list__item--info"><a
+                        class="c-nav-list__link c-nav-list__link--info " href="/contact"><span>Contact</span></a>
+                </li> -->
+
+                <li class="c-nav-list__item o-flexy__item c-nav-list__item--contact"><a
+                        class="c-nav-list__link c-nav-list__link--contact js-nikhil"><span>Chat</span></a>
+                </li>
+
+                <li class="c-nav-list__item o-flexy__item u-mrg-l-auto">
+                    <a class="c-nav-list__link external" href="https://www.linkedin.com/in/nikhil-dasari-35645320a/"
+                        target="_blank" rel="noopener" aria-label="linkedin">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                        </svg>
+                    </a>
+                </li>
+
+                <li class="c-nav-list__item o-flexy__item">
+                    <a class="c-nav-list__link external" href="https://www.instagram.com/d.n.i.k.h.i.l/" target="_blank"
+                        rel="noopener" aria-label="instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                        </svg>
+                    </a>
+                </li>
+
+                <li class="c-nav-list__item o-flexy__item">
+                    <a class="c-nav-list__link external" href="https://www.facebook.com/danielnikhil10" target="_blank"
+                        rel="noopener" aria-label="facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg>
+                    </a>
+                </li>
+
+            </ul>
+
+            <div class="c-nav__work remove">
+                <ul class="c-nav__work-list">
+
+                    <li class="c-nav__work-list-item">
+                        <a href="#current" class="c-nav__work-list-item-link"><span>Current Status</span></a>
+                    </li>
+
+                    <li class="c-nav__work-list-item">
+                        <a href="#skills" class="c-nav__work-list-item-link"><span>Skills</span></a>
+                    </li>
+
+                    <li class="c-nav__work-list-item">
+                        <a href="#education" class="c-nav__work-list-item-link"><span>Education</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="c-hero n-hero">
+        <div class="c-hero__box">
+            <div class="o-flexy__block js-bounce-in-home">
+                <h6 class="c-hero__title"> Hi. I’m Nikhil </h6>
+                <p class="c-hero__sub"> I’m a Adobe Certified Professional - Adobe Experience Manager Developer and
+                    also a front-end developer and I always look for a challenging opportunity to
+                    learn and grow, Ideally to attain practical
+                    knowledge as an engineer. </p>
+                <p class="c-hero__sub"> <img style="width: 18px; padding-bottom: 7px;" src="icons\location.png" alt="">
+                    Hyderabad, India </p>
+            </div>
+
+            <div class="o-flexy__block js-bounce-in-home">
+                <div class="c-hero__eye-wrap">
+                    <div class="c-tile__holder">
+                        <img style="height: auto;" class="c-tile__img c-tile__img--hs lazy newTitlePic"
+                            data-src="/public/images/newTitlePic.jpg" alt="Personal Picture"
+                            aria-label="Profile Picture">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <div class="o-flexy__block js-bounce-in-home">
+
+        <div class="c-tiles">
+            <a class="c-tile c-tile--jeffsum" aria-label="Work">
+                <span class="c-tile__category n-tile_category">Work</span>
+                <h2 class="c-hero__title work-heading-center">Cognizant</h2>
+                <div class="c-tile__holder">
+                    <p class="c-hero__sub"><span>I’m currently working as Programmer Analyst in Cognizant
+                            Certified
+                            in Adobe (AEM). <br> AEM stands for Adobe Experience Manager, and is a Content
+                            Management
+                            System
+                            (CMS) similar to the well-known WordPress. AEM allows users and companies to easily
+                            build
+                            websites,
+                            apps, and to manage web pages and content.</span></p>
+                </div>
+            </a>
+            <a id="current"></a>
+        </div>
+
+
+        <div class="c-duties c-tile--browso">
+
+            <div class="c-duties__col">
+
+                <h6 class="c-duties__title">
+                    <span> Position </span>
+                </h6>
+                <ul class="c-duties__list">
+                    <li class="c-duties__list-item">
+                        <span> Programmer Analyst </span>
+                    </li>
+                </ul>
+
+                <h6 class="c-duties__title">
+                    <span> Company </span>
+                </h6>
+                <ul class="c-duties__list">
+                    <li class="c-duties__list-item">
+                        <span> Cognizant&emsp; &emsp;&emsp; </span>
+                    </li>
+                </ul>
+                <h6 class="c-duties__title">
+                    <span> Year </span>
+                </h6>
+                <ul class="c-duties__list">
+                    <li class="c-duties__list-item">
+                        <span> 2022 </span>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="c-duties__col">
+
+                <h6 class="c-duties__title">
+                    <span> Work </span>
+                </h6>
+
+                <ul class="c-duties__list">
+
+                    <li class="c-duties__list-item">
+                        <span> AEM Site Developer </span>
+                    </li>
+
+                </ul>
+
+
+                <h6 class="c-duties__title">
+                    <span> Department </span>
+                </h6>
+                <ul class="c-duties__list">
+
+
+                    <li class="c-duties__list-item">
+                        <span> EAS-Digital-Adobe </span>
+                    </li>
+
+                </ul>
+                <h6 class="c-duties__title">
+                    <span> Location </span>
+                </h6>
+                <ul class="c-duties__list">
+
+
+                    <li class="c-duties__list-item">
+                        <span> Hyderabad </span>
+                    </li>
+
+                </ul>
+                <span id="skills"></span>
+            </div>
+
+        </div>
+
+        <div class="c-tiles">
+
+
+            <a class="c-tile c-tile--figma" aria-label="Skills">
+                <span class="c-tile__category n-tile_category">Work</span>
+                <h2 class="c-hero__title work-heading-left">Skills</h2><br>
+                <div class="c-tile__holder">
+                    <p class="c-hero__sub skills-subtext">
+                        Here are a few technologies I've been working with recently:
+                    </p>
+
+                    <div class="c-duties skills-section">
+
+                        <div class="c-gant__entry c-gant__entry--ct hobbies-box skill-adobe">
+                            <div class="o-flexy">
+                                <div class="o-flexy__block">
+                                    <span class="c-gant__company">Adobe AEM</span>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="c-duties skills-section">
+
+                        <div class="c-duties__col">
+
+                            <div class="c-gant__chart skills-section-others">
+
+                                <div class="c-gant__entry c-gant__entry--df hobbies-box">
+                                    <div class="o-flexy">
+                                        <div class="o-flexy__block">
+                                            <span class="c-gant__company">Java</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="c-gant__entry c-gant__entry--fl hobbies-box">
+                                    <div class="o-flexy">
+                                        <div class="o-flexy__block">
+                                            <span class="c-gant__company">HTML</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="c-gant__entry c-gant__entry--hs hobbies-box">
+                                    <div class="o-flexy">
+                                        <div class="o-flexy__block">
+                                            <span class="c-gant__company">CSS</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="c-gant__entry c-gant__entry--ct hobbies-box">
+                                    <div class="o-flexy">
+                                        <div class="o-flexy__block">
+                                            <span class="c-gant__company">JavaScript</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="c-gant__entry c-gant__entry--df hobbies-box">
+                                    <div class="o-flexy">
+                                        <div class="o-flexy__block">
+                                            <span class="c-gant__company">SASS</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-duties__col">
+
+                            <div class="c-gant__chart skills-section-others">
+
+                                <div class="c-gant__entry c-gant__entry--fl hobbies-box">
+                                    <div class="o-flexy">
+                                        <div class="o-flexy__block">
+                                            <span class="c-gant__company">Bootstrap</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="c-gant__entry c-gant__entry--hs hobbies-box">
+                                    <div class="o-flexy">
+                                        <div class="o-flexy__block">
+                                            <span class="c-gant__company">JQuery</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="c-gant__entry c-gant__entry--ct hobbies-box">
+                                    <div class="o-flexy">
+                                        <div class="o-flexy__block">
+                                            <span class="c-gant__company">NodeJS</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="c-gant__entry c-gant__entry--df hobbies-box">
+                                    <div class="o-flexy">
+                                        <div class="o-flexy__block">
+                                            <span class="c-gant__company">MySQL</span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <br>
+
+                    <!-- <a class="ResuemButtom" href="resume\Nikhil_Resume.pdf" download="Resume"><input type="submit" value="Resume"></a> -->
+
+                    <form method="get" target="_blank" action="/public/resume/Nikhil_Resume.pdf">
+                        <div class="n-row">
+                            <div class="n-row">
+                                <input class="resumeButtonNew" type="submit" value="Resume">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </a>
+
+            <span id="education"></span>
+            <a class="c-tile c-tile--custoji" aria-label="Education" style="margin-top: 100px;">
+                <span class="c-tile__category n-tile_category">Work</span>
+                <h2 class="c-hero__title work-heading-center">Education</h2><br><br>
+                <span class="c-tile__category">2017 - 2021</span>
+                <div class="c-tile__holder c-tile__holder--custoji">
+                    <p class="c-hero__sub">I completed my Bachelor of Technology (B. Tech) from Geethanjali
+                        College
+                        of
+                        Engineering and Technology, Hyderabad in Electronincs and
+                        Communication
+                        Engineering (ECE) Discipline</p><br>
+                    <span class="c-tile__category">2015 - 2017</span>
+                    <p class="c-hero__sub">I completed my Board of Intermediate Education (BIE) from
+                        Bhavan’s Sri
+                        Aurobindo
+                        Junior College, Secunderabad in Maths, Physics, and Chemistry (MPC)
+                    </p><br>
+                    <span class="c-tile__category">2015</span>
+                    <p class="c-hero__sub">I completed my Secondary Schooling from St Joseph's High School,
+                        Secunderabad
+                    </p>
+                </div>
+            </a>
+
+            <!-- <a href="/work/jeffsum/" class="c-tile c-tile--jeffsum" aria-label="Jeffsum Case Study">
+        <span class="c-tile__category">Wtf</span>
+        <h2 class="c-tile__title">Jeffsum</h2>
+        <div class="c-tile__holder">
+            <img class="c-tile__img c-tile__img--jeffsum lazy" data-src="/images/hp/jeff.jpg" alt="Jeffsum"
+                aria-label="Jeffsum image">
+        </div>
+    </a> -->
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="c-footer">
+
+        <div class="c-footer__content">
+
+            <h3 class="c-footer__title">
+                I occasionally take on freelance opportunities.
+            </h3>
+            <p class="c-footer__text">
+                Have an exciting project where you need some help? <span class="u-d-block@md">Send me over a message,
+                    and <a href="#" class="c-footer__link js-nikhil"><span>let's chat</span></a>.</span>
+            </p>
+
+        </div>
+
+    </footer>
+
+    <p class="c-footer__text">
+        &copy; Copyright 2022 <a href="https://github.com/1Nikhil0"><span>Nikhil</span></a><span>.</span>
+    </p>
+
+
+    <div id="c-nikhil" class="c-nikhil hide" style="top:0px;">
+
+        <div class="c-nikhil__header o-flexy">
+
+            <div class="o-flexy__block">
+                <span class="c-nikhil__name">Nikhil's Bot</span>
+                <span class="c-nikhil__desc">Ask me a question!</span>
+            </div>
+
+            <div class="o-flexy__item u-mrg-l-auto">
+                <button class="c-nikhil__close js-nikhil-exit" data-button="close" aria-label="Close Modal">
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M7.41425 6.00025L11.7072 1.70725C12.0982 1.31625 12.0982 0.68425 11.7072 0.29325C11.3162 -0.09775 10.6843 -0.09775 10.2933 0.29325L6.00025 4.58625L1.70725 0.29325C1.31625 -0.09775 0.68425 -0.09775 0.29325 0.29325C-0.09775 0.68425 -0.09775 1.31625 0.29325 1.70725L4.58625 6.00025L0.29325 10.2933C-0.09775 10.6843 -0.09775 11.3162 0.29325 11.7072C0.48825 11.9022 0.74425 12.0002 1.00025 12.0002C1.25625 12.0002 1.51225 11.9022 1.70725 11.7072L6.00025 7.41425L10.2933 11.7072C10.4883 11.9022 10.7442 12.0002 11.0002 12.0002C11.2562 12.0002 11.5122 11.9022 11.7072 11.7072C12.0982 11.3162 12.0982 10.6843 11.7072 10.2933L7.41425 6.00025Z"
+                            fill="white"></path>
+                    </svg>
+
+                </button>
+            </div>
+        </div>
+
+        <div id="c-nikhil-content" class="c-nikhil__content">
+
+            <div class="c-nikhil__agent">
+                Hi! I’m Nikhil Bot 🤖
+            </div>
+
+            <div class="c-nikhil__agent">
+                I’m just like Nikhil, but a far better conversationalist 😉
+            </div>
+
+            <div class="c-nikhil__agent">
+                How can I help you?
+            </div>
+
+            <div class="c-nikhil__options">
+                <button class="c-nikhil__button" data-question="1">👋&nbsp;&nbsp;I just wanted to say hello</button>
+                <!-- <button class="c-nikhil__button" data-question="3">🤓&nbsp;&nbsp;Interested in mentorship</button> -->
+                <!-- <button class="c-nikhil__button" data-question="4">🤔&nbsp;&nbsp;Looking for your old site</button> -->
+                <button class="c-nikhil__button" data-question="2">🤔&nbsp;&nbsp;How to contact you ?</button>
+                <!-- <button class="c-nikhil__button" data-question="7">💼&nbsp;&nbsp;I’d like to hire you!</button> -->
+            </div>
+
+            <div id="c-new-content">
+
+            </div>
+
+        </div>
+
+        <div id="c-nikhil-q">
+            <br>
+            <div class="c-nikhil__answer c-nikhil__answer--1" data-answer="1">
+                <div tabindex="-1" class="c-nikhil__user">
+                    I just wanted to say hello
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Well hello there!
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Thanks for saying hi 😁
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    I hope you've enjoyed browsing about me
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Can I help you with anything else?
+                </div>
+                <div class="c-nikhil__options">
+                    <!-- <button class="c-nikhil__button" data-question="3">🤓&nbsp;&nbsp;Interested in mentorship</button> -->
+                    <!-- <button class="c-nikhil__button" data-question="4">🤔&nbsp;&nbsp;Looking for your old site</button> -->
+                    <button class="c-nikhil__button" data-question="1">👋&nbsp;&nbsp;I just wanted to say
+                        hello</button>
+                    <button class="c-nikhil__button" data-question="2">🤔&nbsp;&nbsp;How to contact you?</button>
+                    <!-- <button class="c-nikhil__button" data-question="7">💼&nbsp;&nbsp;I’d like to hire you!</button> -->
+                </div>
+            </div>
+
+            <div class="c-nikhil__answer c-nikhil__answer--2" data-answer="2">
+                <div tabindex="-1" class="c-nikhil__user">
+                    How to contact you?
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    You can reach me with these below options:
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Mobile Number: +91 9502978048
+                </div>
+
+                <div class="c-nikhil__options">
+                    <button onclick="window.open('//www.linkedin.com/in/nikhil-dasari-35645320a/','_blank')"
+                        class="c-nikhil__button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                        </svg>
+                        &nbsp;&nbsp;LinkedIn</button>
+                    <button onclick="window.open('//www.instagram.com/d.n.i.k.h.i.l/','_blank')"
+                        class="c-nikhil__button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                        </svg>
+                        &nbsp;&nbsp;Instagram</button>
+                    <button onclick="window.open('//www.facebook.com/danielnikhil10','_blank')"
+                        class="c-nikhil__button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg>
+                        &nbsp;&nbsp;Facebook</button>
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Can I help you with anything else?
+                </div>
+                <div class="c-nikhil__options">
+                    <!-- <button class="c-nikhil__button" data-question="3">🤓&nbsp;&nbsp;Interested in mentorship</button> -->
+                    <!-- <button class="c-nikhil__button" data-question="4">🤔&nbsp;&nbsp;Looking for your old site</button> -->
+                    <button class="c-nikhil__button" data-question="1">👋&nbsp;&nbsp;I just wanted to say
+                        hello</button>
+                    <button class="c-nikhil__button" data-question="2">🤔&nbsp;&nbsp;How to contact you ?</button>
+                    <!-- <button class="c-nikhil__button" data-question="7">💼&nbsp;&nbsp;I’d like to hire you!</button> -->
+                </div>
+            </div>
+
+            <!-- 
+            <div class="c-nikhil__answer c-nikhil__answer--3" data-answer="3">
+                <div tabindex="-1" class="c-nikhil__user">
+                    Linkedin
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Hi!
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Thanks for reaching out
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Unfortunately, I don't currently have any capacity to take on the role of mentor for any new
+                    students this year
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Thanks for understanding
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Can I help you with anything else?
+                </div>
+                <div class="c-nikhil__options">
+                    <button class="c-nikhil__button" data-question="1">👋&nbsp;&nbsp;I just wanted to say
+                        hello</button>
+                    <button class="c-nikhil__button" data-question="4">🤔&nbsp;&nbsp;Looking for your old site</button>
+                </div>
+            </div> -->
+
+            <!-- 
+            <div class="c-nikhil__answer c-nikhil__answer--4" data-answer="4">
+
+                <div class="c-nikhil__user">
+                    I'm looking for your old site
+                </div>
+
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Unfortunately, the previous site is no longer available 😔
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    My work has changed since the site was created almost a decade ago
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    I've updated it to better reflect my life, current work, and ambitions
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Thanks for understanding
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Can I help you with anything else?
+                </div>
+
+                <div class="c-nikhil__options">
+                    <button class="c-nikhil__button" data-question="1">👋&nbsp;&nbsp;I just wanted to say
+                        hello</button>
+                    <button class="c-nikhil__button" data-question="3">🤓&nbsp;&nbsp;Interested in mentorship</button>
+                </div>
+
+            </div> -->
+
+
+            <div class="c-nikhil__answer c-nikhil__answer--5" data-answer="5">
+
+                <div class="c-nikhil__user">
+                    Other options?
+                </div>
+
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Try the following!
+                </div>
+                <div class="c-nikhil__options">
+                    <button class="c-nikhil__button" data-question="1">👋&nbsp;&nbsp;I just wanted to say
+                        hello</button>
+                    <!-- <button class="c-nikhil__button" data-question="3">🤓&nbsp;&nbsp;Interested in mentorship</button>
+                    <button class="c-nikhil__button" data-question="4">🤔&nbsp;&nbsp;Looking for your old site</button> -->
+                    <button class="c-nikhil__button" data-question="2">🤔&nbsp;&nbsp;How to contact you ?</button>
+                    <!-- <button class="c-nikhil__button" data-question="7">💼&nbsp;&nbsp;I’d like to hire you!</button> -->
+                </div>
+
+            </div>
+            <!-- 
+            <div class="c-nikhil__answer c-nikhil__answer--6" data-answer="6">
+                <div tabindex="-1" class="c-nikhil__user">
+                    Freelance
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Sorry, I'm not currently available for freelance projects
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Thanks for understanding
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Can I help you with anything else?
+                </div>
+                <div class="c-nikhil__options">
+                    <button class="c-nikhil__button" data-question="1">👋&nbsp;&nbsp;I just wanted to say
+                        hello</button>
+                    <button class="c-nikhil__button" data-question="3">🤓&nbsp;&nbsp;Interested in mentorship</button>
+                    <button class="c-nikhil__button" data-question="4">🤔&nbsp;&nbsp;Looking for your old site</button>
+                </div>
+            </div> -->
+
+            <!-- <div class="c-nikhil__answer c-nikhil__answer--7" data-answer="7">
+                <div tabindex="-1" class="c-nikhil__user">
+                    I'd like to hire you
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Ok, great!
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Exciting times 🕺
+                </div>
+                <div tabindex="-1" class="c-nikhil__agent">
+                    Send me a message and lets chat further!
+                </div>
+                <div class="c-nikhil__options">
+                    <button class="c-nikhil__button">
+                        <a href="mailto:someone@yoursite.com" target="_blank"
+                            rel="noopener noreferrer">💌&nbsp;&nbsp;Send a message</a></button>
+                    <button class="c-nikhil__button" data-question="5">🤔&nbsp;&nbsp;Other options?</button>
+                </div>
+            </div> -->
+        </div>
+
+
+    </div>
+
+    <button class="c-fab js-nikhil" aria-label="Toggle Chat">
+        <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M27.1245 15H24.875C18.869 15 14 19.6557 14 25.3986C14 31.1419 18.869 36.0251 24.875 36.0251H27.1245C28.5007 36.0251 29.8164 35.5501 31.0277 35.1042L34.7099 36.9196C35.5358 37.229 36.4153 36.6034 36.3434 35.7578L36.1004 31.4793C37.7493 29.6565 38 27.9982 38 25.3986C38 19.6557 33.131 15 27.1245 15ZM34.1036 31.5927C34.0733 31.0585 34.2583 30.5344 34.6172 30.1376C35.7262 28.9116 36 27.9263 36 25.3986C36 20.7808 32.0459 17 27.1245 17H24.875C19.954 17 16 20.7808 16 25.3986C16 30.0739 20.0109 34.0251 24.875 34.0251H27.1245C27.9586 34.0251 28.7311 33.8185 30.3367 33.2274C30.851 33.038 31.4205 33.068 31.9121 33.3104L34.2672 34.4715L34.1036 31.5927ZM34.3467 35.8712L34.3439 35.8218C34.3443 35.8381 34.3452 35.8546 34.3467 35.8712Z"
+                fill="white" />
+        </svg>
+    </button>
+
+
+
+    <script type="text/javascript">
+        ! function (e, t, n) {
+            function a() {
+                var e = t.getElementsByTagName("script")[0],
+                    n = t.createElement("script");
+                n.type = "text/javascript", n.async = !0, n.src = "https://beacon-v2.helpscout.net", e.parentNode
+                    .insertBefore(n, e)
+            }
+            if (e.Beacon = n = function (t, n, a) {
+                    e.Beacon.readyQueue.push({
+                        method: t,
+                        options: n,
+                        data: a
+                    })
+                }, n.readyQueue = [], "complete" === t.readyState) return a();
+            e.attachEvent ? e.attachEvent("onload", a) : e.addEventListener("load", a, !1)
+        }(window, document, window.Beacon || function () {});
+    </script>
+    <script type="text/javascript">
+        window.Beacon('init', '792436eb-bdd6-49a7-bea3-d1d27458d3f3')
+    </script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+
+
+    <!-- Custom Links -->
+    <script src="/public/js/bootstrap.js"></script>
+    <script src="/public/js/jquery.min.js"></script>
+    <script src="/public/js/anime.min.js"></script>
+    <script src="/public/js/lazyload.min.js"></script>
+    <script src="/public/js/index.js"></script>
+
+</body>
+
+</html>
