@@ -10739,7 +10739,7 @@ label {
 }
 
 
-@media(min-width: 380px) and (max-device-width: 540px){
+@media(min-width: 300px) and (max-device-width: 540px){
     .adobe-certificate-text{
         padding-left: 1rem;
         font-size: 1rem;
@@ -10768,27 +10768,4 @@ label {
         height: 90px;
         width: 90px;
     }
-}
-
-@media(min-width: 300px) and (max-device-width: 380px){
-    .c-gant__entry{
-        padding: 0.7em;
-    }
-    .adobe-certificate-text{
-        padding-left: 1rem;
-        font-size: 1rem;
-    }
-    .adobe-certificate img{
-        margin-top: 0.5rem;
-        height: 60px;
-        width: 60px;
-    }
-    .adobe-date{
-        font-size: .5rem;
-    }
-
-    .n-tile_category{
-        text-align: center;
-    }
-
 }
