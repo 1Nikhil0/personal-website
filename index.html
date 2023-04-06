@@ -77,7 +77,7 @@
 
         <!-- Logo -->
 
-        <a class="c-nav-list__link external logo-pad" href="/" rel="noopener" aria-label="Logo">
+        <a class="c-nav-list__link external logo-pad" href="index.html" rel="noopener" aria-label="Logo">
             <img style="height: 2rem;" src="public/images/Nikhil-logos_transparent.png" alt="">
         </a>
 
@@ -116,7 +116,7 @@
         </div>
         <!-- <div class="c-nav-list__item o-flexy__item c-nav-list__item--work dropdown-links">
             <a class="c-nav-list__link c-nav-list__link--dropdown c-nav-list__link--work "
-                href="/about.html"><span>About</span></a>
+                href="#workExperience"><span>Work Experience</span></a>
         </div> -->
         <!-- <div class="c-nav-list__item o-flexy__item c-nav-list__item--work dropdown-links">
             <a class="c-nav-list__link c-nav-list__link--dropdown c-nav-list__link--work "
@@ -241,7 +241,15 @@
                 <ul class="c-nav__work-list">
 
                     <li class="c-nav__work-list-item">
-                        <a href="#current" class="c-nav__work-list-item-link"><span>Current Status</span></a>
+                        <a href="#workExperience" class="c-nav__work-list-item-link"><span>Work Experience</span></a>
+                    </li>
+
+                    <li class="c-nav__work-list-item">
+                        <a href="#currentStatus" class="c-nav__work-list-item-link"><span>Current Status</span></a>
+                    </li>
+
+                    <li class="c-nav__work-list-item">
+                        <a href="#certificates" class="c-nav__work-list-item-link"><span>Certificates</span></a>
                     </li>
 
                     <li class="c-nav__work-list-item">
@@ -251,6 +259,11 @@
                     <li class="c-nav__work-list-item">
                         <a href="#education" class="c-nav__work-list-item-link"><span>Education</span></a>
                     </li>
+
+                    <li class="c-nav__work-list-item">
+                        <a href="#contact" class="c-nav__work-list-item-link"><span>Contact</span></a>
+                    </li>
+
                 </ul>
             </div>
         </nav>
@@ -281,14 +294,16 @@
 
 
         </div>
+        <span id="workExperience"></span>
     </section>
 
     <div class="o-flexy__block js-bounce-in-home">
 
         <div class="c-tiles">
             <a class="c-tile c-tile--jeffsum" aria-label="Work">
-                <span class="c-tile__category n-tile_category">Work</span>
-                <h2 class="c-hero__title work-heading-center">Cognizant</h2>
+                <span class="c-tile__category n-tile_category">Work Experience</span>
+                <h2 class="c-hero__title work-heading-center">Cognizant</h2><br>
+                <span class="c-tile__category c-tile__category-work"> December 2021 - Present </span>
                 <div class="c-tile__holder">
                     <p class="c-hero__sub"><span>I’m currently working as Programmer Analyst in Cognizant
                             Certified
@@ -300,11 +315,11 @@
                             websites,
                             apps, and to manage web pages and content.</span></p>
                 </div>
+                <span id="currentStatus"></span>
             </a>
-            <a id="current"></a>
-        </div>
 
-
+        </div>    
+      
         <div class="c-duties c-tile--browso">
 
             <div class="c-duties__col">
@@ -342,55 +357,62 @@
                 <h6 class="c-duties__title">
                     <span> Work </span>
                 </h6>
-
                 <ul class="c-duties__list">
-
                     <li class="c-duties__list-item">
                         <span> AEM Site Developer </span>
                     </li>
-
                 </ul>
-
-
                 <h6 class="c-duties__title">
                     <span> Department </span>
                 </h6>
                 <ul class="c-duties__list">
-
-
                     <li class="c-duties__list-item">
                         <span> EAS-Digital-Adobe </span>
                     </li>
-
                 </ul>
                 <h6 class="c-duties__title">
                     <span> Location </span>
                 </h6>
                 <ul class="c-duties__list">
-
-
                     <li class="c-duties__list-item">
                         <span> Hyderabad </span>
                     </li>
-
                 </ul>
-                <span id="skills"></span>
+
             </div>
+            
+        </div> 
+        
+        <span id="certificates"></span>
 
+        <div class="c-tiles certificates">
+            <a class="c-tile c-tile--jeffsum" aria-label="certificates">
+                <span class="c-tile__category n-tile_category">Certificates</span><br>
+                <!-- href="https://www.credly.com/badges/1121ef58-991e-4c92-b052-9fb7fae7e0ea/linked_in_profile" -->
+                <div class="adobe-certificate">
+                    <img src="public/images/adobe-certified-professional-adobe-experience-manager-developer.png"
+                        alt="certificate">
+                    <h2 class="work-heading-center adobe-certificate-text">Adobe Certified Professional Adobe Experience Manager Developer 
+                        <span class="c-tile__category adobe-date"> July 2022 - July 2024 </span> </h2>
+                    </link>
+                </div>
+            </a>
+
+            <span id="skills"></span>
         </div>
+    </div>
 
-        <div class="c-tiles">
+    <div class="c-tiles js-bounce-in-home">
 
+        <a class="c-tile c-tile--figma" aria-label="Skills">
+            
+            <h2 class="c-hero__title work-heading-left">Skills</h2><br>
+            <div class="c-tile__holder">
+                <p class="c-hero__sub skills-subtext">
+                    Here are a few technologies I've been working with recently:
+                </p>
 
-            <a class="c-tile c-tile--figma" aria-label="Skills">
-                <span class="c-tile__category n-tile_category">Work</span>
-                <h2 class="c-hero__title work-heading-left">Skills</h2><br>
-                <div class="c-tile__holder">
-                    <p class="c-hero__sub skills-subtext">
-                        Here are a few technologies I've been working with recently:
-                    </p>
-
-                    <div class="c-duties skills-section">
+                <!-- <div class="c-duties skills-section">
 
                         <div class="c-gant__entry c-gant__entry--ct hobbies-box skill-adobe">
                             <div class="o-flexy">
@@ -401,145 +423,178 @@
                             </div>
                         </div>
 
-                    </div>
+                    </div> -->
 
-                    <div class="c-duties skills-section">
+                <div class="c-duties skills-section">
 
-                        <div class="c-duties__col">
+                    <div class="c-duties__col">
 
-                            <div class="c-gant__chart skills-section-others">
+                        <div class="c-gant__chart skills-section-others">
 
-                                <div class="c-gant__entry c-gant__entry--df hobbies-box">
-                                    <div class="o-flexy">
-                                        <div class="o-flexy__block">
-                                            <span class="c-gant__company">Java</span>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="c-gant__entry c-gant__entry--fl hobbies-box">
-                                    <div class="o-flexy">
-                                        <div class="o-flexy__block">
-                                            <span class="c-gant__company">HTML</span>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="c-gant__entry c-gant__entry--hs hobbies-box">
-                                    <div class="o-flexy">
-                                        <div class="o-flexy__block">
-                                            <span class="c-gant__company">CSS</span>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="c-gant__entry c-gant__entry--ct hobbies-box">
-                                    <div class="o-flexy">
-                                        <div class="o-flexy__block">
-                                            <span class="c-gant__company">JavaScript</span>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                                <div class="c-gant__entry c-gant__entry--df hobbies-box">
-                                    <div class="o-flexy">
-                                        <div class="o-flexy__block">
-                                            <span class="c-gant__company">SASS</span>
-                                        </div>
-
+                            <div class="c-gant__entry c-gant__entry--df hobbies-box">
+                                <div class="o-flexy">
+                                    <div class="o-flexy__block">
+                                        <span class="c-gant__company">AEM Sites</span>
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="c-gant__entry c-gant__entry--df hobbies-box">
+                                <div class="o-flexy">
+                                    <div class="o-flexy__block">
+                                        <span class="c-gant__company">Java</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="c-gant__entry c-gant__entry--df hobbies-box">
+                                <div class="o-flexy">
+                                    <div class="o-flexy__block">
+                                        <span class="c-gant__company">JavaScript</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="c-gant__entry c-gant__entry--fl hobbies-box">
+                                <div class="o-flexy">
+                                    <div class="o-flexy__block">
+                                        <span class="c-gant__company">HTML5</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="c-gant__entry c-gant__entry--hs hobbies-box">
+                                <div class="o-flexy">
+                                    <div class="o-flexy__block">
+                                        <span class="c-gant__company">CSS3</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="c-gant__entry c-gant__entry--ct hobbies-box">
+                                <div class="o-flexy">
+                                    <div class="o-flexy__block">
+                                        <span class="c-gant__company">Bootstrap</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="c-gant__entry c-gant__entry--ct hobbies-box">
+                                <div class="o-flexy">
+                                    <div class="o-flexy__block">
+                                        <span class="c-gant__company">MySQL</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
                         </div>
-                        <div class="c-duties__col">
+                    </div>
 
-                            <div class="c-gant__chart skills-section-others">
+                    <div class="c-duties__col">
 
-                                <div class="c-gant__entry c-gant__entry--fl hobbies-box">
-                                    <div class="o-flexy">
-                                        <div class="o-flexy__block">
-                                            <span class="c-gant__company">Bootstrap</span>
-                                        </div>
+                        <div class="c-gant__chart skills-section-others">
 
+                            <div class="c-gant__entry c-gant__entry--fl hobbies-box">
+                                <div class="o-flexy">
+                                    <div class="o-flexy__block">
+                                        <span class="c-gant__company">AEM Forms</span>
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="c-gant__entry c-gant__entry--hs hobbies-box">
-                                    <div class="o-flexy">
-                                        <div class="o-flexy__block">
-                                            <span class="c-gant__company">JQuery</span>
-                                        </div>
-
+                            <div class="c-gant__entry c-gant__entry--hs hobbies-box">
+                                <div class="o-flexy">
+                                    <div class="o-flexy__block">
+                                        <span class="c-gant__company">Git</span>
                                     </div>
                                 </div>
-                                <div class="c-gant__entry c-gant__entry--ct hobbies-box">
-                                    <div class="o-flexy">
-                                        <div class="o-flexy__block">
-                                            <span class="c-gant__company">NodeJS</span>
-                                        </div>
-
+                            </div>
+                            <div class="c-gant__entry c-gant__entry--ct hobbies-box">
+                                <div class="o-flexy">
+                                    <div class="o-flexy__block">
+                                        <span class="c-gant__company">JQuery</span>
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="c-gant__entry c-gant__entry--df hobbies-box">
-                                    <div class="o-flexy">
-                                        <div class="o-flexy__block">
-                                            <span class="c-gant__company">MySQL</span>
-                                        </div>
-
+                            <div class="c-gant__entry c-gant__entry--df hobbies-box">
+                                <div class="o-flexy">
+                                    <div class="o-flexy__block">
+                                        <span class="c-gant__company">HTL</span>
                                     </div>
                                 </div>
-
+                            </div>
+                            <div class="c-gant__entry c-gant__entry--df hobbies-box">
+                                <div class="o-flexy">
+                                    <div class="o-flexy__block">
+                                        <span class="c-gant__company">SCSS</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="c-gant__entry c-gant__entry--df hobbies-box">
+                                <div class="o-flexy">
+                                    <div class="o-flexy__block">
+                                        <span class="c-gant__company">NodeJs</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="c-gant__entry c-gant__entry--df hobbies-box">
+                                <div class="o-flexy">
+                                    <div class="o-flexy__block">
+                                        <span class="c-gant__company">Mongodb</span>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
 
                     </div>
 
-                    <br>
+                </div>
 
-                    <!-- <a class="ResuemButtom" href="resume\Nikhil_Resume.pdf" download="Resume"><input type="submit" value="Resume"></a> -->
+                <br>
 
-                    <form method="get" target="_blank" action="public/resume/Nikhil_Resume.pdf">
+                <!-- <a class="ResuemButtom" href="resume\Nikhil_Resume.pdf" download="Resume"><input type="submit" value="Resume"></a> -->
+
+                <form method="get" target="_blank" action="public/resume/Nikhil_Resume.pdf">
+                    <div class="n-row">
                         <div class="n-row">
-                            <div class="n-row">
-                                <input class="resumeButtonNew" type="submit" value="Resume">
-                            </div>
+                            <input class="resumeButtonNew" type="submit" value="Resume">
                         </div>
-                    </form>
-                </div>
-            </a>
+                    </div>
+                </form>
+            </div>
+        </a>
 
-            <span id="education"></span>
-            <a class="c-tile c-tile--custoji" aria-label="Education" style="margin-top: 100px;">
-                <span class="c-tile__category n-tile_category">Work</span>
-                <h2 class="c-hero__title work-heading-center">Education</h2><br><br>
-                <span class="c-tile__category">2017 - 2021</span>
-                <div class="c-tile__holder c-tile__holder--custoji">
-                    <p class="c-hero__sub">I completed my Bachelor of Technology (B. Tech) from Geethanjali
-                        College
-                        of
-                        Engineering and Technology, Hyderabad in Electronincs and
-                        Communication
-                        Engineering (ECE) Discipline</p><br>
-                    <span class="c-tile__category">2015 - 2017</span>
-                    <p class="c-hero__sub">I completed my Board of Intermediate Education (BIE) from
-                        Bhavan’s Sri
-                        Aurobindo
-                        Junior College, Secunderabad in Maths, Physics, and Chemistry (MPC)
-                    </p><br>
-                    <span class="c-tile__category">2015</span>
-                    <p class="c-hero__sub">I completed my Secondary Schooling from St Joseph's High School,
-                        Secunderabad
-                    </p>
-                </div>
-            </a>
+        <span id="education"></span>
+        <a class="c-tile c-tile--custoji" aria-label="Education" style="margin-top: 100px;">
 
-            <!-- <a href="/work/jeffsum/" class="c-tile c-tile--jeffsum" aria-label="Jeffsum Case Study">
+            <h2 class="c-hero__title work-heading-center">Education</h2><br>
+            <span class="c-tile__category">2017 - 2021</span>
+            <div class="c-tile__holder c-tile__holder--custoji">
+                <p class="c-hero__sub">I completed my Bachelor of Technology (B. Tech) from Geethanjali
+                    College
+                    of
+                    Engineering and Technology, Hyderabad in Electronincs and
+                    Communication
+                    Engineering (ECE) Discipline</p><br>
+                <span class="c-tile__category">2015 - 2017</span>
+                <p class="c-hero__sub">I completed my Board of Intermediate Education (BIE) from
+                    Bhavan’s Sri
+                    Aurobindo
+                    Junior College, Secunderabad in Maths, Physics, and Chemistry (MPC)
+                </p><br>
+                <span class="c-tile__category">2015</span>
+                <p class="c-hero__sub">I completed my Secondary Schooling from St Joseph's High School,
+                    Secunderabad
+                </p>
+            </div>
+        </a>
+
+        
+
+        <!-- <a href="/work/jeffsum/" class="c-tile c-tile--jeffsum" aria-label="Jeffsum Case Study">
         <span class="c-tile__category">Wtf</span>
         <h2 class="c-tile__title">Jeffsum</h2>
         <div class="c-tile__holder">
@@ -548,8 +603,23 @@
         </div>
     </a> -->
 
-        </div>
+    </div>
+    <span id="contact"></span>
+    </div>
 
+    <div class="c-tiles c-tile-- js-bounce-in-home" aria-label="Contact" >
+        <section class="c-hero">
+            <div class="c-hero__box">
+                <div class="o-flexy__block js-bounce-in-home">
+                    <h1 class="c-hero__title">Contact Me </h1>
+                    <h3 class="c-hero__sub"> I would love to hear from you. Feel free to reach out if you have any
+                        questions, think we could work together, or just want to connect. </h3>
+                    <p class="c-hero__sub"> ✉ &nbsp;<a href="mailto:danielnikhil10@gmail.com">
+                            danielnikhil10@gmail.com</a></p>
+                    <p class="c-hero__sub"> 📞 &nbsp;<a href="tel:+919502978048">+919502978048</a></p>
+                </div>
+            </div>
+        </section>
     </div>
 
     <!-- Footer -->

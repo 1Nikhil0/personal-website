@@ -428,15 +428,18 @@ $(document).ready(() => {
 // Custom script
 
 
-  $(".c-nikhil__buttonNew").click(function (e) {
-    e.preventDefault();
-    Beacon("close");
-    $(".js-nikhil-exit").blur();
-    $("#c-nikhil").addClass("hide");
-    $(".c-fab").removeClass("hide");
-    
-  });
+$(".c-nikhil__buttonNew").click(function (e) {
+  e.preventDefault();
+  Beacon("close");
+  $(".js-nikhil-exit").blur();
+  $("#c-nikhil").addClass("hide");
+  $(".c-fab").removeClass("hide");
 
+});
+
+$(".adobe-certificate").click(function (e) {
+  window.open("https://www.credly.com/badges/1121ef58-991e-4c92-b052-9fb7fae7e0ea/linked_in_profile", '_blank');
+});
 
 
 // Carousel JavaScript

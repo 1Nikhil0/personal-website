@@ -6753,7 +6753,7 @@ a:hover .c-logo__iris {
     overflow: hidden;
     position: relative;
     z-index: 1000;
-    padding-top: 95px
+    /* padding-top: 95px */
 }
 
 .c-hero__title {
@@ -7027,7 +7027,7 @@ a:hover .c-logo__iris {
     max-width: 90%;
     border-radius: 20px;
     background: #fdf5ee;
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
     display: -ms-flexbox;
     display: flex
 }
@@ -7132,7 +7132,7 @@ a:hover .c-logo__iris {
 
 @media (min-width:992px) {
     .c-footer__content {
-        padding: 14em 0;
+        padding: 7.2em 0;
         max-width: 790px
     }
 }
@@ -7851,12 +7851,9 @@ a:hover .c-logo__iris {
 }
 
 @media (min-width:300px) and (max-device-width:900px) {
-    /* .c-tile__category {
-        font-size: 9px;
-    } */
 
     .c-tile {
-        padding: 1em 1em 2em;
+        padding: 2em 2em 2em;
     }
 
     .c-hero__title {
@@ -10331,6 +10328,11 @@ a:hover .c-logo__iris {
         .work-heading-center {
             text-align: left;
         }
+
+        .skills-subtext {
+            margin: 20px 0px;
+            font-size: 1.5rem;
+        }
     }
 
 
@@ -10702,5 +10704,68 @@ label {
 @media(min-width: 300px) and (max-device-width: 340px){
     .s-home .c-hero__title{
         font-size: 2.5em;
+    }
+}
+
+.forId{
+    margin: 0;
+    padding: 0;
+}
+
+.c-tile__category-work {
+    text-align: center;
+} 
+
+.adobe-certificate{
+    display:flex;
+}
+
+.adobe-certificate-text{
+    padding-left: 2rem;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.adobe-date{
+    padding: 0.5rem 0;
+    text-align: left;
+    opacity: 1;
+    font-size: 0.8rem;
+    color: grey !important;
+}
+
+.currentStatus-text{
+    align-items: center;
+}
+
+
+@media(min-width: 300px) and (max-device-width: 540px){
+    .adobe-certificate-text{
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+    .adobe-certificate img{
+        margin-top: 0.5rem;
+        height: 60px;
+        width: 60px;
+    }
+    .adobe-date{
+        font-size: .5rem;
+    }
+
+    .n-tile_category{
+        text-align: center;
+    }
+    
+}
+
+@media(min-width: 540px) and (max-device-width: 900px){
+    .adobe-certificate-text{
+        padding-left: 1.5rem;
+        font-size: 1.5rem;
+    }
+    .adobe-certificate img{
+        height: 90px;
+        width: 90px;
     }
 }
