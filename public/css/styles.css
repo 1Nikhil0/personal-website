@@ -10772,7 +10772,7 @@ label {
 
 @media(min-width: 300px) and (max-device-width: 380px){
     .c-gant__entry{
-        padding: 0.9rem;
+        padding: 0.7em;
     }
     .adobe-certificate-text{
         padding-left: 1rem;
