@@ -217,6 +217,14 @@ textarea {
     -webkit-appearance: none
 }
 
+.left-align-bullets{
+    text-align: left;
+}
+
+.reduce-margin-top{
+    margin-top: 2em !important;
+}
+
 @media print {
 
     *,
@@ -6767,10 +6775,26 @@ a:hover .c-logo__iris {
     transition: all .2s ease-in-out
 }
 
+.company-role{
+    font-size: 1.5em;
+}
+
+.current-status{
+    font-size: 2em;
+}
+
+
 @media (min-width:1000px) {
     .c-hero__title {
         font-size: 4.5em;
     }
+    .company-role{
+        font-size: 2.5em;
+    }
+    .current-status{
+        font-size: 3em;
+    }
+    
 }
 
 @media (min-width:1600px) {
@@ -6778,6 +6802,14 @@ a:hover .c-logo__iris {
         font-size: 6.5em;
         letter-spacing: -3px
     }
+
+    .company-role{
+        font-size: 4.5em;
+    }
+    .current-status{
+        font-size: 5em;
+    }
+    
 }
 
 .c-hero__sub {
@@ -7860,6 +7892,13 @@ a:hover .c-logo__iris {
         font-size: 3em;
     }
 
+    .company-role{
+        font-size: 1.5em;
+    }
+    .current-status{
+        font-size: 2em;
+    }
+    
 }
 
 @media (max-width: 767px) {
@@ -10323,7 +10362,7 @@ a:hover .c-logo__iris {
 
         .c-hero__sub {
             font-size: 1.2em;
-        }
+        }        
 
         .work-heading-center {
             text-align: left;
@@ -10331,7 +10370,7 @@ a:hover .c-logo__iris {
 
         .skills-subtext {
             margin: 20px 0px;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
         }
     }
 
