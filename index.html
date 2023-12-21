@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-wf-page="5e6a565f89b7ce667683d22d" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -23,6 +23,8 @@
 
     <!-- Custom Links -->
 
+    <link rel="stylesheet" href="public/css/webflow.css">
+
     <!-- Bootstrap 5.2 Links -->
 
     <link rel="stylesheet" href="public/css/bootstrap.css">
@@ -34,7 +36,6 @@
     <link href="public/css/diaplaySwap.css" rel="stylesheet">
 
     <link rel="stylesheet" href="public/css/todolist.css">
-
 
 </head>
 
@@ -239,7 +240,7 @@
 
             <div class="c-nav__work remove">
                 <ul class="c-nav__work-list">
-                    
+
                     <li class="c-nav__work-list-item">
                         <a href="#currentStatus" class="c-nav__work-list-item-link"><span>Current Status</span></a>
                     </li>
@@ -269,41 +270,63 @@
         </nav>
     </header>
 
-    <section class="c-hero n-hero">
-        <div class="c-hero__box">
-            <div class="o-flexy__block js-bounce-in-home">
-                <h6 class="c-hero__title"> Hi. I’m Nikhil </h6>
-                <p class="c-hero__sub">I’m an Adobe Certified Professional - Adobe Experience
-                    Manager Developer with 2 years of total IT experience,
-                    Professional in design and implementation of AEM Sites
-                    & Adaptive Forms. I always look for a challenging
-                    opportunity to learn and grow, Ideally to attain
-                    practical knowledge as an Engineer.</p>
-                <p class="c-hero__sub"> <img style="width: 18px; padding-bottom: 7px;" src="public/icons/location.png"
-                        alt="location icon">
-                    Hyderabad, India </p>
-            </div>
+    <section id="intro" data-w-id="7f2f6c78-f3c8-08f4-3bee-763f9e361a37" class="introduction">
 
-            <div class="o-flexy__block js-bounce-in-home">
-                <div class="c-hero__eye-wrap">
-                    <div class="c-tile__holder">
-                        <img style="height: auto;" class="c-tile__img c-tile__img--hs lazy newTitlePic"
-                            data-src="public/images/newTitlePic.jpg" alt="Personal Picture"
-                            aria-label="Profile Picture">
+        <section class="c-hero n-hero">
+
+            <div class="c-hero__box">
+                <div class="o-flexy__block js-bounce-in-home">
+                    <h6 class="c-hero__title"> Hi. I’m Nikhil </h6>
+                    <p class="c-hero__sub">I’m an Adobe Certified Professional - Adobe Experience
+                        Manager Developer with 2 years of total IT experience,
+                        Professional in design and implementation of AEM Sites
+                        & Adaptive Forms. I always look for a challenging
+                        opportunity to learn and grow, Ideally to attain
+                        practical knowledge as an Engineer.</p>
+                    <p class="c-hero__sub"> <img style="width: 18px; padding-bottom: 7px;" src="public/icons/location.png"
+                            alt="location icon">
+                        Hyderabad, India </p>
+                </div>
+    
+                <div class="o-flexy__block js-bounce-in-home">
+                    <div class="c-hero__eye-wrap">
+                        <div class="c-tile__holder">
+                            <img style="height: auto;" class="c-tile__img c-tile__img--hs lazy newTitlePic"
+                                data-src="public/images/newTitlePic.jpg" alt="Personal Picture"
+                                aria-label="Profile Picture">
+                        </div>
                     </div>
                 </div>
-            </div>
-
-
-        </div>
-        
-    </section>    
-    <span id="currentStatus"></span>
-    <br>
-    <br>
-
     
+            </div>
+    
+        </section>
+
+        <div class="chat-box">
+            <div class="chat-bubbles-box">
+                <h4 class="h4-chat-bubbles h4-chat-1">Oh yeah, you&#x27;re a AEM Developer!</h4>
+                <h4 class="h4-chat-bubbles h4-chat-2">Are you paid to do this ?</h4>
+                <h4 class="h4-chat-bubbles h4-chat-3">So you are a happy manager ?</h4>
+                <h4 class="h4-chat-bubbles h4-chat-4">Another stupid anglicism...<br></h4>
+                <h4 class="h4-chat-bubbles h4-chat-5">Can you hack a Facebook account ?<br></h4>
+            </div>
+            <h2 class="h2-title h2-title-chat">What is <br> Adobe <br>Experience <br> Manager? <br></h2>
+        </div>
+        <div class="text-width-box">
+            <div class="text-box">Adobe Experience Manager (AEM) is a comprehensive content management solution for
+                building websites, mobile apps, and forms.
+                <br><br>
+                Adobe Experience Manager (AEM) is an enterprise content management system that optimises the authoring,
+                management, and delivery of content and digital media. AEM allows you to create unique digital
+                experiences and manage fully context-specific messages that scale across products, services,
+                organisations, and countries
+            </div>
+        </div>
+
+    </section>
+
     <section class="c-hero">
+        <span id="currentStatus"></span>
         <div class="c-hero__box">
             <div class="o-flexy__block js-bounce-in-home">
                 <h2 class="c-hero__title current-status"> Current Status </h2>
@@ -311,7 +334,7 @@
         </div>
     </section>
 
-    <div class="c-duties c-tile--browso reduce-margin-top">        
+    <div class="c-duties c-tile--browso reduce-margin-top">
 
         <div class="c-duties__col">
 
@@ -358,7 +381,7 @@
             </h6>
             <ul class="c-duties__list">
                 <li class="c-duties__list-item">
-                    <span> EPS Adobe &emsp; &emsp;&emsp;</span><br>
+                    <span> EPS Adobe &emsp; &emsp;</span><br>
                 </li>
             </ul>
             <h6 class="c-duties__title">
@@ -385,25 +408,25 @@
                     <div class="c-hero__sub left-align-bullets">
                         <ul>
                             <li><span>Worked as AEM Sites / AEM Forms Developer in a Banking
-                                Domains</span></li>
+                                    Domains</span></li>
                             <li>Experience of AEM Sites and Forms</li>
                             <li>Worked on AEM Sites Components, Touch UI (Granite UI Library),
                                 Editable Templates, Content Fragments, Experience Fragments,
                                 Client Libraries (CSS & JS)
-                                <li> Worked on Sling Models, Sling Servlets, OSGI Services, OSGI
+                            <li> Worked on Sling Models, Sling Servlets, OSGI Services, OSGI
                                 Configurations, Context Aware Configurations</li>
-                               <li> Worked on Adaptive Forms, Adaptive Form Templates, Adaptive
+                            <li> Worked on Adaptive Forms, Adaptive Form Templates, Adaptive
                                 Form Fields, Adaptive Form Fragments, Scripting & Rule Editor,
                                 Adaptive Form Themes, Custom Form Submission</li>
-                               <li> Worked on third-party integration such as Apigee-X with AEM
+                            <li> Worked on third-party integration such as Apigee-X with AEM
                                 forms</li>
-                               <li> Experience of handling Go-Live activities, coordination with
+                            <li> Experience of handling Go-Live activities, coordination with
                                 DevOps, QA and Business teams</li>
-                               <li> Efficient communication skills and temperament for business
+                            <li> Efficient communication skills and temperament for business
                                 discussions</li>
-                               <li> Experience of creating design documentations, release
+                            <li> Experience of creating design documentations, release
                                 documents etc</li>
-                               <li> Strong expertise in problem-solving, decision making and
+                            <li> Strong expertise in problem-solving, decision making and
                                 general analytical skills</li>
                         </ul>
                     </div>
@@ -421,7 +444,7 @@
                             websites,
                             apps, and to manage web pages and content.</span></p>
                 </div>-->
-                
+
             </a>
 
         </div>
@@ -1055,6 +1078,10 @@
     <script src="public/js/anime.min.js"></script>
     <script src="public/js/lazyload.min.js"></script>
     <script src="public/js/index.js"></script>
+    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5c4835f3edcab5da7ee37a1b"
+        type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+    <script src="public/js/webflow.js" type="text/javascript"></script>
 
 </body>
 

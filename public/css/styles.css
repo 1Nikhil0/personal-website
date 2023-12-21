@@ -6976,12 +6976,6 @@ a:hover .c-logo__iris {
     margin: 0 auto
 }
 
-@media (min-width:544px) {
-    .c-hero__box {
-        padding: 2em 0 0
-    }
-}
-
 @media (min-width:1000px) {
     .c-hero__box {
         display: -ms-flexbox;
